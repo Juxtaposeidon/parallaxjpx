@@ -40,7 +40,7 @@ $(document).ready(function(){
   $('#overlay').click(function(){
     $.ajax({
       data: {key: $(this).text()},
-      url: '/website/projects/show'
+      url: '/projects/show'
     })
     .done(function(result){
       $('#projecttext').html(result['partial'])

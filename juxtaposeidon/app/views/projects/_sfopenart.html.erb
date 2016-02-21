@@ -1,0 +1,14 @@
+<div class="projectheader">
+  <h3>SF Open Art</h3>
+  <span class = "projectlink"><%=link_to 'Github', "https://github.com/Juxtaposeidon/SF-Open-Art", :target => '_blank'%></span>
+  <span class = "projectlink"><%=link_to 'Heroku', "http://sfopenart.herokuapp.com/", :target => '_blank'%></span>
+</div>
+<p>
+  <b>Problem:</b> Despite being the world's tech capital, San Francisco could definitely update its online infrastructure for its civic organizations. It's why groups like Code for America and DataKind exist. While going through the City's online resources for civic art, I found inaccurate and outdated websites. I wanted to build something that would make civic artwork data more accessible.
+</p>
+<p>
+  With the help of the SF OpenData city database, SF Open Art loads all SF civic art locations onto a number of different maps. Users can view projects near a certain address, see all installations around San Francisco, and pull up pieces by a specific artist. For tourists and other mobile users, the app can retrieve their current location and provide directions to nearby displays.
+</p>
+<p>
+  The main challenge I faced with this project was working with faulty data. After importing the SF OpenData database, I noticed that 70 or so art pieces shared the same dead-end longitude and latitude. Additionally, I randomly Googled some of the art collections and found that their current addresses differed from those in the database. While the first issue could be fixed with a simple filtering method, the second is simply way too time-consuming to tackle. Until I can find a more accurate database, I can only do so much with the resources I have at hand.
+</p>

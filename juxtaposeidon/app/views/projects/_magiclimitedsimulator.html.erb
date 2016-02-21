@@ -1,0 +1,14 @@
+<div class="projectheader">
+  <h3>Magic: the Gathering: <br> Battle for Zendikar Limited Simulator</h5>
+  <span class = "projectlink"><%=link_to 'Github', "https://github.com/Juxtaposeidon/MagicBFZLimitedSim", :target => '_blank'%></span>
+  <span class = "projectlink"><%=link_to 'Heroku', "http://bfz.herokuapp.com/", :target => '_blank'%></span>
+</div>
+<p>
+  <b>Problem:</b> As someone who loves card games, I wanted to build something that would help me hone my skills. I used to be big into poker and currently spend a lot of time playing Magic: the Gathering, and this app was the perfect opportunity for me to dive into the game's mechanics and strategy. Due to the sheer number of cards out there, I decided to focus on one of the game's more recent expansions, Battle for Zendikar.
+</p>
+<p>
+  The M:tG simulator was designed in Rails and Javascript and provides users with practice modes for choosing cards in the sealed and draft limited formats. In the sealed format, the player builds a deck on the spot after opening six booster packs. In the draft format, the player builds a deck by picking cards from a pool that rotates around in a circle. The app emulates this draft experience by having artificial opponents make educated card picks.
+</p>
+<p>
+  The primary challenge in developing this app centered around the card picking algorithm in draft. It's hard to nail card choices down to a science since Magic players are very opinionated in how they pick and rank cards. By reading up on a lot of strategy, I developed a selection system based on "card tier" levels. Since balancing card choices from the game's five color pools is also important, I had to make sure the simulated opponents stuck to two-three colors instead of going all over the place. I feel that I got the basic draft strategy down in code form, to the delight of 'mages' with whom I actively duel and consult.
+</p>
