@@ -1,0 +1,45 @@
+.project{
+  margin: 5px;
+  border: 1px solid gray;
+  width:100%;
+}
+
+#projectbanners{
+  width:55%;
+  float:left;
+  margin-top:15px;
+}
+
+#projecttext{
+  float:right;
+  width:40%;
+  margin-right:10px;
+}
+
+.imagelabel{
+  font-family: "Open Sans";
+  font-size:2em;
+  color: white;
+  text-align:center;
+  line-height: 3em;
+}
+
+#overlay .imagelabel:hover{
+  cursor: pointer;
+}
+
+.projectlink{
+  font-weight: bold;
+}
+
+.projectheader{
+  text-align:center;
+}
+
+.projectheader a{
+  font-size: 1.15em;
+}
+
+p{
+  font-size: 1em;
+}
