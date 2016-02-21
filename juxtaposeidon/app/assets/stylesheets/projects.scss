@@ -5,15 +5,13 @@
 }
 
 #projectbanners{
-  width:55%;
+  width:50%;
   float:left;
-  margin-top:15px;
 }
 
 #projecttext{
   float:right;
-  width:40%;
-  margin-right:10px;
+  width:45%;
 }
 
 .imagelabel{
@@ -33,6 +31,7 @@
 }
 
 .projectheader{
+  margin-top:10px;
   text-align:center;
 }
 
@@ -40,10 +39,11 @@
   font-size: 1.15em;
 }
 
-p{
-  font-size: 1em;
-}
 
 #pickupproj{
   display:none;
+}
+
+.projectbody{
+  font-size: 1em;
 }
