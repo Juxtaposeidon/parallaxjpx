@@ -30,6 +30,7 @@
     width:100%;
     background: white;
     z-index: 2;
+    font-size: 1.2em;
 }
 .content2 {
     height: 500px;
@@ -38,12 +39,7 @@
     z-index: 2;
     overflow: auto;
 }
-.content3 {
-    height: 400px;
-    width:100%;
-    background: white;
-    z-index: 2;
-}
+
 h1 {
     font-size: 40px;
     color: #464646;
@@ -94,7 +90,7 @@ p {
 h1::first-letter {
     font-size: 60px;
     font-weight: 600;
-    color:#3cb0f8;
+    color:gray;
 }
 .contactimg{
   margin:10px;
@@ -131,38 +127,6 @@ header{
   font-family: Open Sans;
   margin-left:15px;
 }
-.icon img{
-  height:70px;
-  width:auto;
-}
-
-.name{
-  font-size: 1.2em;
-  font-family: verdana;
-}
-
-.mainimage{
-  height:250px;
-  width:auto;
-  display:inline-block;
-  margin:10px;
-}
-
-#imagegrid{
-  margin-top:20px;
-  width:100%;
-  margin-left:auto;
-  margin-right:auto;
-  text-align:center;
-}
-
-.placeholder{
-  height:250px;
-  width:250px;
-  display:inline-block;
-  vertical-align:top;
-  margin:10px;
-}
 
 .overlay{
   display: block;
@@ -174,22 +138,5 @@ header{
   height: 0px;
 }
 
-#aboutpage{
-  text-align:center;
-  width: 60%;
-  margin-left:auto;
-  margin-right:auto;
-}
 
 
-.contactimg{
-  margin:10px;
-  width:40px;
-  height:auto;
-}
-
-#resumeframe{
-  width:100%;
-  text-align:center;
-  margin-top:20px;
-}
