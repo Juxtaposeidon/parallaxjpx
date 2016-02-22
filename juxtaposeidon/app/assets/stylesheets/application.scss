@@ -19,33 +19,48 @@
     padding: 0;
 }
 .image {
-    height: 750px;
+    height: 500px;
     width: 100%;
     background: #55e6c5;
     z-index: 1;
-    }
+}
 
-.content {
+.content1 {
+    min-height: 400px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+.content2 {
     height: 750px;
     width:100%;
     background: white;
     z-index: 2;
 }
-.content h1 {
+.content3 {
+    height: 400px;
+    width:100%;
+    background: white;
+    z-index: 2;
+}
+h1 {
     font-size: 40px;
     color: #464646;
     font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     margin: 30px 60px;
 }
-.content p {
+p {
     color: #343434;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin: 30px 60px;
 }
+body{
+  background-color: gray;
+}
 #wall_1 {
-    background: url(image-path('campus.jpg')) no-repeat;
+    background: url(image-path('ithaca.jpg')) no-repeat;
     background-attachment: fixed;
     background-position: center;
 
@@ -58,7 +73,7 @@
 
 }
 #wall_3 {
-    background: url(image-path('hyphen.jpg')) no-repeat;
+    background: url(image-path('mtgdice.jpg')) no-repeat;
     background-attachment: fixed;
         background-position: 50%;
 
