@@ -36,7 +36,7 @@
     width:100%;
     background: white;
     z-index: 2;
-    overflow: scroll;
+    overflow: auto;
 }
 .content3 {
     height: 400px;
@@ -55,29 +55,22 @@ p {
     color: #343434;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    margin: 30px 60px;
+    margin: 20px 10px;
 }
-body{
-  background-color: gray;
-}
-#wall_1 {
-    background: url(image-path('ithaca.jpg')) no-repeat;
-    background-attachment: fixed;
-    background-position: center;
 
+#wall_1 {
+    background: url(image-path('patterns.jpg')) no-repeat;
+    background-attachment: fixed;
 
 }
 #wall_2 {
     background: url(image-path('magic.jpg')) no-repeat;
     background-attachment: fixed;
-        background-position: center;
 
 }
 #wall_3 {
-    background: url(image-path('mtgdice.jpg')) no-repeat;
+    background: url(image-path('ocean.jpg')) no-repeat;
     background-attachment: fixed;
-        background-position: 50%;
-
 }
 
 
@@ -92,21 +85,9 @@ body{
     background: rgba(255,255,255,1);
     z-index: 100;
     -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
-}
-#nav #logo {
-    height: 40px;
-    width: 170px;
-    position: absolute;
-    top: 0;
-    bottom:0;
-    margin: auto 100px;
+    overflow:auto;
 }
 
-#nav #logo img {
-    height: 100%;
-    width: 100%;
-
-}
 
 #content_1 {position: relative;}
 
@@ -140,13 +121,16 @@ header{
   float:right;
 }
 
-.icon{
-  display:table-cell;
-  padding-left:20px;
-  float:left;
-  min-width: 200px;
+#icons{
+  float:right;
 }
 
+#headline{
+  float:left;
+  font-size: 2.5em;
+  font-family: Open Sans;
+  margin-left:15px;
+}
 .icon img{
   height:70px;
   width:auto;
