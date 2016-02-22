@@ -38,6 +38,7 @@ $(document).ready(function(){
   });
 
   $('#overlay').click(function(){
+    $(".content2").css("height", "900px")
     $.ajax({
       data: {key: $(this).text()},
       url: '/projects/show'
