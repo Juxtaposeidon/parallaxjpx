@@ -1,15 +1,16 @@
-.project{
+.project {
   margin: 5px;
   border: 1px solid gray;
-  width:30%;
+  width:auto;
+  height:180px;
 }
 
-#projectbanners{
+#projectbanners {
   width:100%;
   text-align:center;
 }
 
-.imagelabel{
+.imagelabel {
   font-family: "Open Sans";
   font-size:2em;
   color: white;
@@ -19,28 +20,27 @@
   left:50%;
 }
 
-#overlay .imagelabel:hover{
+#overlay .imagelabel:hover {
   cursor: pointer;
 }
 
-.projectlink{
+.projectlink {
   font-weight: bold;
 }
 
-.projectheader{
+.projectheader {
   margin-top:10px;
   text-align:center;
 }
 
-.projectheader a{
+.projectheader a {
   font-size: 1.15em;
 }
 
-
-#pickupproj{
+#pickupproj {
   display:none;
 }
 
-.projectbody{
+.projectbody {
   font-size: 1em;
 }

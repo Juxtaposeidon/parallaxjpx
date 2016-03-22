@@ -14,7 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-addOverlay = function(image){
+addOverlay = function(image) {
   $("#overlay").width(image.css("width"));
   $("#overlay").height(image.css("height"));
   $("#overlay").css("top", image.offset().top + "px");
@@ -22,22 +22,22 @@ addOverlay = function(image){
   $("#overlay").html('<div class = "imagelabel">' + image.attr('id') + '</div>');
 }
 
-removeOverlay = function(){
+removeOverlay = function () {
   $("#overlay").width(0);
   $("#overlay").height(0);
   $("#overlay").html('');
 }
 
-$(document).ready(function(){
-  $('.project').mouseenter(function(){
+$(document).ready(function () {
+  $('.project').mouseenter(function () {
     addOverlay($(this));
   });
 
-  $('#overlay').mouseleave(function(){
+  $('#overlay').mouseleave(function () {
     removeOverlay();
   });
 
-  $('#overlay').click(function(){
+  $('#overlay').click(function () {
     $(".content2").css("height", "900px")
     $.ajax({
       data: {key: $(this).text()},
