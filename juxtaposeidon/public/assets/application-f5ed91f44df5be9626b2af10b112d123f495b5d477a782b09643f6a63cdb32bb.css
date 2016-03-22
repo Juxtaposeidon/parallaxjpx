@@ -1,0 +1,215 @@
+/* line 1, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+.project {
+  margin: 5px;
+  border: 1px solid gray;
+  width: 30%;
+}
+
+/* line 7, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+#projectbanners {
+  width: 100%;
+  text-align: center;
+}
+
+/* line 12, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+.imagelabel {
+  font-family: "Open Sans";
+  font-size: 2em;
+  color: white;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+
+/* line 22, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+#overlay .imagelabel:hover {
+  cursor: pointer;
+}
+
+/* line 26, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+.projectlink {
+  font-weight: bold;
+}
+
+/* line 30, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+.projectheader {
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* line 35, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+.projectheader a {
+  font-size: 1.15em;
+}
+
+/* line 40, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+#pickupproj {
+  display: none;
+}
+
+/* line 44, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/projects.scss */
+.projectbody {
+  font-size: 1em;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 18, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 22, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+.image {
+  height: 500px;
+  width: 100%;
+  background: #55e6c5;
+  z-index: 1;
+}
+
+/* line 29, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+.content1 {
+  min-height: 400px;
+  width: 100%;
+  background: white;
+  z-index: 2;
+  font-size: 1.2em;
+}
+
+/* line 36, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+.content2 {
+  height: 500px;
+  width: 100%;
+  background: white;
+  z-index: 2;
+  overflow: auto;
+}
+
+/* line 44, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+h1 {
+  font-size: 40px;
+  color: #464646;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 30px 60px;
+}
+
+/* line 51, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+p {
+  color: #343434;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 20px 10px;
+}
+
+/* line 58, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+#wall_1 {
+  background: url("/assets/patterns-b7a030b74764912a4f8d647da7fe8ec48a3f64c454b8ec494264ec152a62e723.jpg") no-repeat;
+  background-attachment: fixed;
+}
+
+/* line 63, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+#wall_2 {
+  background: url("/assets/magic-c3c11631b1fef2788c10b5bcb30a237651b6ea5191df5f9709ae485d6925f4c9.jpg") no-repeat;
+  background-attachment: fixed;
+}
+
+/* line 68, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+#wall_3 {
+  background: url("/assets/ocean-b7e88270851b214e45f5f7b36ff7943d4a8a3d7fa0172885a9f79ce68b1bcef0.jpg") no-repeat;
+  background-attachment: fixed;
+}
+
+/* line 75, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+#nav {
+  text-align: right;
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: white;
+  z-index: 100;
+  -webkit-box-shadow: 0px 0px 20px rgba(44, 44, 44, 0.3);
+  overflow: auto;
+}
+
+/* line 89, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+#content_1 {
+  position: relative;
+}
+
+/* line 91, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+h1::first-letter {
+  font-size: 60px;
+  font-weight: 600;
+  color: gray;
+}
+
+/* line 96, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+.contactimg {
+  margin: 10px;
+  width: 40px;
+  height: auto;
+}
+
+/* line 102, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+ul {
+  white-space: nowrap;
+}
+
+/* line 105, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+header {
+  padding: 10px;
+  height: 120px;
+  border-bottom: #D3D3D3 3px solid;
+  font-size: 1.15em;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 114, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+.navholder {
+  width: 50%;
+  display: table-cell;
+  vertical-align: middle;
+  float: right;
+}
+
+/* line 121, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+#icons {
+  float: right;
+}
+
+/* line 125, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+#headline {
+  float: left;
+  font-size: 2.5em;
+  font-family: Open Sans;
+  margin-left: 15px;
+}
+
+/* line 132, /Users/Juxtaposeidon/Desktop/websiteparallax/juxtaposeidon/app/assets/stylesheets/application.scss */
+.overlay {
+  display: block;
+  position: absolute;
+  background-color: rgba(0, 128, 128, 0.5);
+  top: 0px;
+  left: 0px;
+  width: 0px;
+  height: 0px;
+}
