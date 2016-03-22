@@ -1,58 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Parallax Demo Site</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+<div id="nav">
+<div id="headline">
+  Justin Yee Web Dev
+</div>
+<div id="icons">
+   <%= link_to image_tag('github.png', class: 'contactimg'), 'http://www.github.com/juxtaposeidon', :target => '_blank' %>
+   <%= link_to image_tag('linkedin.png', class: 'contactimg'), 'http://www.linkedin.com/in/justinckyee', :target => '_blank' %>
+   <%= link_to image_tag('email.png', class: 'contactimg'), 'mailto:jy243@cornell.edu', :target => '_blank' %>
+ </div>
+</div>
 
-     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css" />
+<div id="wall_1" class="image" data-stellar-background-ratio="0.4" ></div>
+<div class="content1">
+<h1>Hi There!</h1>
+<p>
+My name Justin, and I like to build and break things. I am a native Bay Area web developer who's spent time in Australia, Japan, and New York. In my spare time, I enjoy the arts, card games, comics, dubious sports teams, and brainstorming portmanteaus.
+</p>
+<p>
+Feel free to drop me a line about any web-related opportunities!
+</p>
 
-
-</head>
-<body>
-   <div id="nav">
-    <div id="headline">
-      Justin Yee Web Dev
-    </div>
-    <div id="icons">
-       <%=link_to image_tag('github.png', class: 'contactimg'), 'http://www.github.com/juxtaposeidon', :target => '_blank'%>
-       <%=link_to image_tag('linkedin.png', class: 'contactimg'), 'http://www.linkedin.com/in/justinckyee', :target => '_blank'%>
-       <%=link_to image_tag('email.png', class: 'contactimg'), 'mailto:jy243@cornell.edu', :target => '_blank' %>
-     </div>
-   </div>
-
-    <div id="wall_1" class="image" data-stellar-background-ratio="0.4" ></div>
-    <div class="content1">
-    <h1>Hi There!</h1>
-    <p>
-    My name Justin, and I like to build and break things. I am a native Bay Area web developer who's spent time in Australia, Japan, and New York. In my spare time, I enjoy the arts, card games, comics, dubious sports teams, and brainstorming portmanteaus.
-    </p>
-    <p>
-    Feel free to drop me a line about any web-related opportunities!
-    </p>
-
-    </div>
-    <div id="wall_2" class="image" data-stellar-background-ratio="0.4"  ></div>
-    <div class="content2" >
+</div>
+<div id="wall_2" class="image" data-stellar-background-ratio="0.4"  ></div>
+<div class="content2" >
 
 
-    <div id="overlay" class="overlay"></div>
-      <h1>Projects</h1>
+<div id="overlay" class="overlay"></div>
+  <h1>Projects</h1>
 
-    <div id="projectbanners">
-      <%=image_tag('pickup.png', class: 'project', id: 'Pick Up')%>
-      <%=image_tag('mtgdrafter.png', class: 'project', id: 'Magic Limited Simulator')%>
-      <%=image_tag('sfart.png', class: 'project', id: 'SF Open Art')%>
-    </div>
+<div id="projectbanners">
+  <%= image_tag('pickup.png', class: 'project', id: 'Pick Up') %>
+  <%= image_tag('mtgdrafter.png', class: 'project', id: 'Magic Limited Simulator') %>
+  <%= image_tag('sfart.png', class: 'project', id: 'SF Open Art') %>
+</div>
 
-    <div id="projecttext">
-    </div>
+<div id="projecttext">
+</div>
 
-    </div>
-    <div id="wall_3" class="image" data-stellar-background-ratio="0.4"  ></div>
-
-
-
-</body>
-</html>
+</div>
+<div id="wall_3" class="image" data-stellar-background-ratio="0.4"  ></div>
